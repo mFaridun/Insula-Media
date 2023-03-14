@@ -7,35 +7,89 @@
     <title>Insula Media</title>
 
     <!-- bootsrap link -->
-    <!-- <link rel="stylesheet" href="./bootstrap5/bootstrap-5/css/bootstrap.min.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
   </head>
+
   <body>
 
+    <!-- header section start -->
     <header class="header">
-      <nav class="navbar navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./images/Ins__media__logo 1.png" alt="" width="118" height="32">
+      <div class="container sm:container-fluid d-flex justify-content-between mt-3 ">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="./images/Ins__media__logo 1.png"
+            alt="logo"
+            width="118"
+            height="32"
+            class="d-inline-block align-text-top"
+        /></a>
+
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-between gap-5">
+          <a class="icon-faks nav-link text-dark" href="#"
+            >Info@ins-media.ru
+            <style>
+              .icon-faks::before {
+                content: "";
+                background-image: url("images/icon-faks.svg");
+                width: 24px;
+                height: 18px;
+                position: absolute;
+                top: 19px;
+                left: -16px;
+              }
+            </style></a
+          >
+          <a class="icon-facebook nav-link text-dark" href="#"
+            >@power.island
+            <style>
+              .icon-facebook::before {
+                content: "";
+                background-image: url("images/icon-facebook.svg");
+                background-repeat: no-repeat;
+                width: 14px;
+                height: 25px;
+                position: absolute;
+                top: 16px;
+                left: 38%;
+              }
+            </style>
           </a>
-
-          <div class="navbar" id="navbarNav">
-            <ul class="navbar-nav d-flex">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Info@ins-media.ru</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">@power.island</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">8 922 209 56 11</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+          <a class="icon-tel nav-link text-dark" href="#"
+            >8 922 209 56 11
+            <style>
+              .icon-tel::before {
+                content: "";
+                background-image: url("images/icon-tel.svg");
+                background-repeat: no-repeat;
+                width: 23px;
+                height: 23px;
+                position: absolute;
+                top: 17px;
+                left: 70%;
+              }
+            </style>
+          </a>
+        </nav>
+      </div>
     </header>
+    <!-- header section end -->
 
-    <!-- <script src="./bootstrap5/bootstrap-5/js/bootstrap.bundle.js"></script> -->
+    <!-- main section start -->
+    <main class="main">
+      <div class="container"></div>
+    </main>
+    <!-- main section end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
